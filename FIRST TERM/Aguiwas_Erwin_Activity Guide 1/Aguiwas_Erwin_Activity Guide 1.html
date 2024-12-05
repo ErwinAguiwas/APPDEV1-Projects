@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width, initial-scale=1.0">
+        <title>Activity Guide 1</title>
+    </head>
+    <body>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+    <!-- START  -->
+    <h1>1. Personal Information</h1>
+    
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name"><br><br>
+
+    <label for="address">Your Address:</label><br>
+    <input type="text" id="address"><br><br>
+
+    <label for="telephone">Your Telephone Number:</label><br>
+    <input type="text" id="telephone"><br><br>
+
+    <label for="major">Your College Major:</label><br>
+    <input type="text" id="major"><br><br>
+    
+    <button onclick="displayInformation()">submit</button>
+
+    <p id="output"></p>
+    <!-- END -->
+<br>
+    <!-- START -->
+    <h1>2. Sales Prediction</h1>
+    <label for="totalSales">Enter the projected amount of total sales: $</label>
+    <input type="number" id="totalSales">
+    <button onclick="calculateProfit()">calculate</button>
+    
+    <p id="profit"></p>
+    <!-- END -->
+<br>
+    <!-- START -->
+    <h1>3. Distance Traveled</h1>
+    <button onclick="calculateDistance()">calculate distacne</button>
+    <p id="distance5Hours"></p>
+    <p id="distance8Hours"></p>
+    <p id="distance12Hours"></p>
+    <!-- END -->
+<br>
+    <!--strat-->
+    <h1>4. Miles-per-Gallon</h1>
+    <label for="milesDriven">Miles driven:</label>
+    <input type="number" id="milesDriven" placeholder="Enter miles driven"><br><br>
+
+    <label for="gallonsUsed">Gallons of gas used:</label>
+    <input type="number" id="gallonsUsed" placeholder="Enter gallons used"><br><br>
+
+    <button onclick="calculateMPG()">calculate</button>
+
+    <p id="mpgResult"></p>
+    <!--end-->
+<br>
+    <!--START-->
+    <h1>5. Celsius to Fahrenheit Converter</h1>
+    <label for="celsius">Enter temperature in Celsius:</label>
+    <input type="number" id="celsius"><br><br>
+
+    <button onclick="convertToFahrenheit()">convert to fahrenheit</button>
+
+    <p id="fahrenheitResult"></p>
+    <!--END-->
+<br>
+<!--start-->
+    <h1>6. Cookie Calorie Calculator</h1>
+    <label for="cookiesEaten">Enter the number of cookies you ate:</label>
+    <input type="number" id="cookiesEaten"><br><br>
+
+    <button onclick="calculateCalories()">calories</button>
+
+    <p id="caloriesResult"></p>
+<!--end-->
+<br>
+<!--start-->
+<h1>7. Male and Female</h1>
+<label for="males">Enter the number of males:</label>
+<input type="number" id="males"><br><br>
+
+<label for="females">Enter the number of females:</label>
+<input type="number" id="females"><br><br>
+
+<button onclick="calculatePercentages()">percentages</button>
+
+<p id="malePercentageResult"></p>
+<p id="femalePercentageResult"></p>
+<!--end-->
+
+<script src = "app.js"></script>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+    </body>
+</html>
